@@ -4,7 +4,7 @@ export function Register() {
   const [role, setRole] = useState<"tourist" | "provider">("tourist");
 
   // Definir rutas de imagen según el rol
-  const imageSrc = role === "tourist" ? "/img/regsiter-tourist.jpg" : "/img/register-provider2.jpg";
+  const imageSrc = role === "tourist" ? "img/regsiter-tourist.jpg" : "img/register-provider2.jpg";
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-6">
