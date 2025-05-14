@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import loginImg from '/img/login.jpg'
 
 export function Login() {
   return (
@@ -7,7 +8,7 @@ export function Login() {
         {/* Imagen del lado izquierdo */}
         <div className="w-1/2 hidden md:block">
           <img
-            src="/turismo/img/login.jpg"
+            src={loginImg}
             alt="Login visual"
             className="object-cover h-full w-full"
           />
