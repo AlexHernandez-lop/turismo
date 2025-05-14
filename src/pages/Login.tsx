@@ -7,7 +7,7 @@ export function Login() {
         {/* Imagen del lado izquierdo */}
         <div className="w-1/2 hidden md:block">
           <img
-            src="img/login.jpg"
+            src="/turismo/img/login.jpg"
             alt="Login visual"
             className="object-cover h-full w-full"
           />
